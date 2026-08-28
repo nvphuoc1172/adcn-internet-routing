@@ -1,0 +1,40 @@
+Jan 16 14:24:37.113 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jan 16 14:24:37.113 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39881.
+Jan 16 14:24:37.120 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 16 14:24:37.121 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips 
+Jan 16 14:24:37.121 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips
+Jan 16 14:24:37.121 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/8d7be979-d470-4d0c-9c96-74c036f2337e 
+Jan 16 14:24:37.121 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/8d7be979-d470-4d0c-9c96-74c036f2337e
+Jan 16 14:24:37.121 HYPERVISOR: exec_cmd: vm create R3 3 c2691 
+Jan 16 14:24:37.121 VM: VM R3 created.
+Jan 16 14:24:37.122 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5004 
+Jan 16 14:24:37.122 HYPERVISOR: exec_cmd: c2691 get_mac_addr R3 
+Jan 16 14:24:37.122 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jan 16 14:24:37.122 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 16 14:24:37.122 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60a483b4 
+Jan 16 14:24:37.123 HYPERVISOR: exec_cmd: vm set_ios R3 /home/phuoc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25d.image 
+Jan 16 14:24:37.123 HYPERVISOR: exec_cmd: c2691 set_mac_addr R3 c003.68be.0000 
+Jan 16 14:24:37.123 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Jan 16 14:24:37.123 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Jan 16 14:24:37.124 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 16 14:24:37.124 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-2T 
+Jan 16 14:24:37.634 HYPERVISOR: exec_cmd: nio create_udp udp-641ce440-8c34-486a-8414-5fd886a93ae4 10008 127.0.0.1 10009 
+Jan 16 14:24:37.839 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 16 udp-641ce440-8c34-486a-8414-5fd886a93ae4 
+Jan 16 14:24:37.839 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 16 14:24:37.875 HYPERVISOR: exec_cmd: nio create_udp udp-635d74a3-c4b3-4e83-b0bc-bbe27d10d2fa 10012 127.0.0.1 10013 
+Jan 16 14:24:37.876 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 17 udp-635d74a3-c4b3-4e83-b0bc-bbe27d10d2fa 
+Jan 16 14:24:37.876 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 16 14:24:46.827 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Jan 16 14:24:46.827 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/c2691-adventerprisek9-mz.124-25d.image-192.ghost 
+Jan 16 14:24:46.828 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 16 14:24:46.828 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Jan 16 14:24:46.828 HYPERVISOR: exec_cmd: vm start R3 
+Jan 16 14:26:28.337 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 16 14:26:28.338 HYPERVISOR: exec_cmd: vm stop R3 
+Jan 16 14:26:28.435 VM: VM R3 shutdown.
+Jan 16 14:26:28.435 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jan 16 14:26:28.436 HYPERVISOR: exec_cmd: vm delete R3 
+Jan 16 14:26:28.436 VM: VM R3 destroyed.
+Jan 16 14:26:28.436 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 16 14:26:28.720 HYPERVISOR: Stopped.
+Jan 16 14:26:28.720 GENERAL: reset done.

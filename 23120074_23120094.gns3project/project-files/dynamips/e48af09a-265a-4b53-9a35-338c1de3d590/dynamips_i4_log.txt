@@ -1,0 +1,10 @@
+Jan 16 14:21:32.679 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jan 16 14:21:32.679 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56563.
+Jan 16 14:21:32.686 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 16 14:21:32.687 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips 
+Jan 16 14:21:32.687 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips
+Jan 16 14:21:32.687 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jan 16 14:21:32.907 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jan 16 14:21:32.908 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 16 14:21:33.186 HYPERVISOR: Stopped.
+Jan 16 14:21:33.187 GENERAL: reset done.

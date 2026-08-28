@@ -1,0 +1,27 @@
+Jan 16 14:21:32.755 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jan 16 14:21:32.755 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38125.
+Jan 16 14:21:32.763 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 16 14:21:32.764 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips 
+Jan 16 14:21:32.764 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips
+Jan 16 14:21:32.764 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/ba56f506-cbb3-4115-a007-10bc9ed81a47 
+Jan 16 14:21:32.764 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/ba56f506-cbb3-4115-a007-10bc9ed81a47
+Jan 16 14:21:32.764 HYPERVISOR: exec_cmd: vm create R5 5 c2691 
+Jan 16 14:21:32.764 VM: VM R5 created.
+Jan 16 14:21:32.764 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5009 
+Jan 16 14:21:32.765 HYPERVISOR: exec_cmd: c2691 get_mac_addr R5 
+Jan 16 14:21:32.765 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Jan 16 14:21:32.765 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 16 14:21:32.765 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60a483b4 
+Jan 16 14:21:32.766 HYPERVISOR: exec_cmd: vm set_ios R5 /home/phuoc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25d.image 
+Jan 16 14:21:32.766 HYPERVISOR: exec_cmd: c2691 set_mac_addr R5 c005.a3d5.0000 
+Jan 16 14:21:32.766 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Jan 16 14:21:32.766 HYPERVISOR: exec_cmd: vm set_ram R5 192 
+Jan 16 14:21:32.766 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 16 14:21:32.766 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 16 WIC-2T 
+Jan 16 14:21:32.907 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 16 14:21:32.907 HYPERVISOR: exec_cmd: vm extract_config R5 
+Jan 16 14:21:32.909 HYPERVISOR: exec_cmd: vm delete R5 
+Jan 16 14:21:32.909 VM: VM R5 destroyed.
+Jan 16 14:21:32.910 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 16 14:21:33.264 HYPERVISOR: Stopped.
+Jan 16 14:21:33.264 GENERAL: reset done.

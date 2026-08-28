@@ -1,0 +1,58 @@
+Jan 16 14:24:37.060 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jan 16 14:24:37.060 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60603.
+Jan 16 14:24:37.064 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 16 14:24:37.065 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips 
+Jan 16 14:24:37.065 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips
+Jan 16 14:24:37.065 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/bee60cf5-9f92-4a06-a595-7dc6ad8306e9 
+Jan 16 14:24:37.065 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/bee60cf5-9f92-4a06-a595-7dc6ad8306e9
+Jan 16 14:24:37.065 HYPERVISOR: exec_cmd: vm create R1 1 c2691 
+Jan 16 14:24:37.065 VM: VM R1 created.
+Jan 16 14:24:37.065 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5008 
+Jan 16 14:24:37.065 HYPERVISOR: exec_cmd: c2691 get_mac_addr R1 
+Jan 16 14:24:37.066 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 16 14:24:37.066 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:24:37.066 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60a483b4 
+Jan 16 14:24:37.066 HYPERVISOR: exec_cmd: vm set_ios R1 /home/phuoc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25d.image 
+Jan 16 14:24:37.067 HYPERVISOR: exec_cmd: c2691 set_mac_addr R1 c001.570f.0000 
+Jan 16 14:24:37.067 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jan 16 14:24:37.067 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Jan 16 14:24:37.067 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:24:37.067 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-2T 
+Jan 16 14:24:37.363 HYPERVISOR: exec_cmd: nio create_udp udp-10c02091-3db4-4374-8111-5bf510a00eb3 10002 127.0.0.1 10003 
+Jan 16 14:24:37.571 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-10c02091-3db4-4374-8111-5bf510a00eb3 
+Jan 16 14:24:37.572 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:24:37.628 HYPERVISOR: exec_cmd: nio create_udp udp-d6f8ca80-d19f-42f8-92b9-dc524779c739 10006 127.0.0.1 10007 
+Jan 16 14:24:37.629 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 17 udp-d6f8ca80-d19f-42f8-92b9-dc524779c739 
+Jan 16 14:24:37.629 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:24:39.330 HYPERVISOR: exec_cmd: nio create_udp udp-ab5c8bb9-7d4a-41a1-8a8d-59b86d56ae7c 10050 127.0.0.1 10051 
+Jan 16 14:24:39.331 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 16 udp-ab5c8bb9-7d4a-41a1-8a8d-59b86d56ae7c 
+Jan 16 14:24:39.331 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:24:46.365 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Jan 16 14:24:46.365 VM: VM Ghost created.
+Jan 16 14:24:46.366 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/phuoc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25d.image 
+Jan 16 14:24:46.366 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 16 14:24:46.366 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/c2691-adventerprisek9-mz.124-25d.image-192.ghost 
+Jan 16 14:24:46.366 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Jan 16 14:24:46.367 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 16 14:24:46.370 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jan 16 14:24:46.371 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 16 14:24:46.769 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 16 14:24:46.769 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 16 14:24:46.823 VM: VM Ghost shutdown.
+Jan 16 14:24:46.824 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jan 16 14:24:46.824 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 16 14:24:46.824 VM: VM Ghost destroyed.
+Jan 16 14:24:46.825 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jan 16 14:24:46.826 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/c2691-adventerprisek9-mz.124-25d.image-192.ghost 
+Jan 16 14:24:46.826 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:24:46.826 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Jan 16 14:24:46.826 HYPERVISOR: exec_cmd: vm start R1 
+Jan 16 14:26:28.580 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 16 14:26:28.580 HYPERVISOR: exec_cmd: vm stop R1 
+Jan 16 14:26:28.687 VM: VM R1 shutdown.
+Jan 16 14:26:28.687 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jan 16 14:26:28.687 HYPERVISOR: exec_cmd: vm delete R1 
+Jan 16 14:26:28.687 VM: VM R1 destroyed.
+Jan 16 14:26:28.688 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 16 14:26:29.162 HYPERVISOR: Stopped.
+Jan 16 14:26:29.162 GENERAL: reset done.

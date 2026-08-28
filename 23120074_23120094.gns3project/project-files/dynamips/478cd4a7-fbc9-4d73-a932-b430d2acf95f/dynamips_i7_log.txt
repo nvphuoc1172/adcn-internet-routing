@@ -1,0 +1,27 @@
+Jan 16 14:21:32.782 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jan 16 14:21:32.782 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47877.
+Jan 16 14:21:32.790 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 16 14:21:32.790 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips 
+Jan 16 14:21:32.790 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips
+Jan 16 14:21:32.790 HYPERVISOR: exec_cmd: hypervisor working_dir /mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/c9738c62-b6f8-46af-ab85-f5975af82905 
+Jan 16 14:21:32.791 GENERAL: working_dir=/mnt/usb-Netac_SS_D_120GB_012345679057-0:0-part3/Downloads/AdCN/Assignment1/23120074_23120094/23120074_23120094.gns3project/project-files/dynamips/c9738c62-b6f8-46af-ab85-f5975af82905
+Jan 16 14:21:32.791 HYPERVISOR: exec_cmd: vm create R6 6 c2691 
+Jan 16 14:21:32.791 VM: VM R6 created.
+Jan 16 14:21:32.791 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5010 
+Jan 16 14:21:32.791 HYPERVISOR: exec_cmd: c2691 get_mac_addr R6 
+Jan 16 14:21:32.792 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Jan 16 14:21:32.792 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 16 14:21:32.792 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60a483b4 
+Jan 16 14:21:32.793 HYPERVISOR: exec_cmd: vm set_ios R6 /home/phuoc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25d.image 
+Jan 16 14:21:32.793 HYPERVISOR: exec_cmd: c2691 set_mac_addr R6 c006.a3f2.0000 
+Jan 16 14:21:32.793 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Jan 16 14:21:32.793 HYPERVISOR: exec_cmd: vm set_ram R6 192 
+Jan 16 14:21:32.794 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 16 14:21:32.794 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 16 WIC-2T 
+Jan 16 14:21:32.906 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 16 14:21:32.907 HYPERVISOR: exec_cmd: vm extract_config R6 
+Jan 16 14:21:32.909 HYPERVISOR: exec_cmd: vm delete R6 
+Jan 16 14:21:32.909 VM: VM R6 destroyed.
+Jan 16 14:21:32.910 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 16 14:21:33.290 HYPERVISOR: Stopped.
+Jan 16 14:21:33.290 GENERAL: reset done.
